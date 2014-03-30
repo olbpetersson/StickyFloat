@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="se.olapetersson.stickyfloat"
+    android:versionCode="2"
+    android:versionName="1.01" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/stickyfloatlogo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:persistent="true" >
+        <activity
+            android:name="se.olapetersson.stickyfloat.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter android:label="Add To Homescreen">
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+           
+        </activity>
+             <activity
+            android:name="se.olapetersson.stickyfloat.SettingsActivity"
+            android:label="@string/app_name" >
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <service android:name="se.olapetersson.stickyfloat.FloatReminderService"
+                 >
+			
+        </service>
+    </application>
+
+</manifest>

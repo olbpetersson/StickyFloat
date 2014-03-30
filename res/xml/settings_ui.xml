@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="@string/settings_add_note_title">
+        <EditTextPreference 
+            android:title="@string/settings_add_note_title"
+		    android:key="@string/settings_add_note_key"
+		    android:summary="@string/settings_add_note_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/settings_appearance_title">
+	   	<ListPreference
+		    android:title="@string/settings_theme_title"
+		    android:key="@string/settings_theme_list_key"
+		    android:entries="@array/theme_list_entries"
+		    android:entryValues="@array/theme_list_values"
+		    android:defaultValue="1"
+		    android:summary="@string/settings_theme_summary" />
+	   	<ListPreference
+		    android:title="@string/settings_text_size_title"
+		    android:key="@string/settings_text_size_list_key"
+		    android:entries="@array/text_size_list_entries"
+		    android:entryValues="@array/text_size_list_values"
+		    android:defaultValue="14"
+		    android:summary="@string/settings_text_size_summary" />
+	<!--     <CheckBoxPreference  -->
+	<!--         android:key="settings_ui_theme_key" -->
+	<!--         android:summary="@string/settings_theme_summary" -->
+	<!--         android:title="@string/settings_theme_title" -->
+	<!--         android:defaultValue="false" /> -->
+	</PreferenceCategory>
+    
+</PreferenceScreen>

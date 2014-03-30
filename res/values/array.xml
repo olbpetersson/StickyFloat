@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="theme_list_entries">
+		<item>Sticky Notes</item>
+		<item>Holo (Dark)</item>
+		<item>Holo (Light)</item>
+	</string-array>
+	<string-array name="theme_list_values">
+  	  <item>1</item>
+  	  <item>2</item>
+  	  <item>3</item>
+	</string-array>
+	<string-array name="text_size_list_entries">
+		<item>10</item>
+		<item>12</item>
+		<item>14</item>
+		<item>16</item>
+		<item>18</item>
+		<item>20</item>
+		<item>22</item>
+		<item>24</item>
+		<item>26</item>
+		<item>28</item>
+		<item>30</item>
+		<item>32</item>
+		<item>34</item>
+		<item>36</item>
+		<item>38</item>
+		<item>40</item>
+	</string-array>
+	<string-array name="text_size_list_values">
+  		<item>10</item>
+		<item>12</item>
+		<item>14</item>
+		<item>16</item>
+		<item>18</item>
+		<item>20</item>
+		<item>22</item>
+		<item>24</item>
+		<item>26</item>
+		<item>28</item>
+		<item>30</item>
+		<item>32</item>
+		<item>34</item>
+		<item>36</item>
+		<item>38</item>
+		<item>40</item>
+	</string-array>
+	
+	
+</resources>
